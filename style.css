@@ -1,0 +1,71 @@
+body {
+    font-family: Lato, sans-serif;
+    /* background: #F8F9FA; */
+}
+
+.container-banner{
+    height: 85vh;
+    background: url(./images/banner.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* form.form-banner {
+    width: 75%;
+} */
+
+/* .container-banner--inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.h2-font-size {
+    font-size: 40px;
+}
+
+/* icons section */
+.container-icons {
+    width: 80%;
+}
+svg{
+    width: 80px;
+    height: 80px;
+}
+
+.container-icons svg:hover {
+    transform: scale(1.1);
+    color: rgb(16, 16, 105) !important;
+}
+
+.container-icons h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container-icons p, .container-pics p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* banner 2 */
+.container-banner__2 {
+    height: 40vh;
+    background: url(./images/banner.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.container-banner .banner2-h3 {
+    font-size: 1rem;
+}
+
+/* footer */
+i {
+    font-size: 2rem;
+}
+
+i:hover {
+    color: blue !important; 
+    transform: scale(1.2);
+}
